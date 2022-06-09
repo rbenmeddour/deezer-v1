@@ -1,0 +1,42 @@
+header
+{
+    background-color: yellow;
+    height: 7vh;
+}
+
+.first_bloc
+{
+    background-color: red;
+    height: 32vh;
+}
+
+.second_bloc
+{
+    background-color: aquamarine;
+    height: 40vh;
+}
+
+.pink_bar
+{
+    background-color: rgb(198, 54, 78);
+    height: 16vh;
+}
+
+.forfait_bloc
+{
+    background-color: gray;
+    height: 70vh;
+}
+
+.discount_bloc
+{
+    background-color: blue;
+    height: 20vh;
+
+}
+
+footer
+{
+    background-color: yellow;
+    height: 40vh;
+}
