@@ -1,42 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* - Rouge: #ef5466
+- Bleu: #2d96c8
+- Gris clair: #f9f9f9
+- Gris foncé: #8e8e94 */
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 header
 {
-    background-color: yellow;
-    height: 7vh;
+    /* background-color: yellow; */
+    height: 5vh;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+
 }
+
+header nav
+{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    margin-right: 80px;
+}
+
+.logo 
+{
+    max-width: 130px;
+    max-height: 130px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+header nav a 
+{
+    padding-right: 60px;
+}
+
+header button
+
+{
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    border-radius: 50px;
+}
+
+.signin
+{
+    background-color: white;
+    border-color: #2d96c8;
+    color: #2d96c8;
+    margin-right: 30px;
+    box-shadow: none;
+}
+
+
+.signup
+
+{
+    background-color: #2d96c8;
+    color: white;
+    border-color: #2d96c8;
+
+}
+
 
 .first_bloc
 {
-    background-color: red;
+    /* background-color: red; */
     height: 32vh;
 }
 
 .second_bloc
 {
-    background-color: aquamarine;
-    height: 40vh;
-}
+    /* background-color: aquamarine; */
+     height: 40vh;
+} 
 
 .pink_bar
 {
-    background-color: rgb(198, 54, 78);
+    /* background-color: rgb(198, 54, 78); */
     height: 16vh;
 }
 
 .forfait_bloc
 {
-    background-color: gray;
+    /* background-color: gray; */
     height: 70vh;
 }
 
 .discount_bloc
 {
-    background-color: blue;
-    height: 20vh;
+    /* background-color: blue; */
+    height: 23vh;
 
 }
 
 footer
 {
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 40vh;
 }
