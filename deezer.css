@@ -87,24 +87,56 @@ header button
 {
     /* display: block; */
     /* width: 70vh; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: center; */
+    position: absolute;
+    height: 25vh;
+    width: 50vh;
+    padding: 70px 0 0 200px;
 }
 
+.premium
+
+{
+    background-color: #ef5466;
+    color: #fff;
+    border-color: #ef5466;
+    width: 190px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 15px 0 15px 0;
+    border-radius: 50px;
+}
+
+.gratuit
+
+{
+    background-color: #fff;
+    color: #1a1616;
+    border-color: #1a1616;
+    width: 190px;
+    padding: 15px 0 15px 0;
+    border-radius: 50px;
+}
 .first_bloc h2
 
 {
-    font-size: 30px;
+    font-size: 37px;
     font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(29, 28, 28);
 }
 
 .first_bloc h3
 
 {
 
-    font-size: 20px;
+    font-size: 21px;
+    margin-top: 10px;
+    color: #ef5466;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 
@@ -119,10 +151,71 @@ header button
 
 .second_bloc
 {
-    background-color: #181616f8;
+    background-color: #f9f9f9;
      height: 50vh;
 } 
 
+.container
+{
+    display: flex;
+    margin-left: 200px;
+}
+
+.info
+{
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.info article
+{
+    width: 30%;
+    height: 50%;
+}
+
+.phone
+{
+    height: 40vh;
+    display: flex;
+    padding-top: 65px;
+
+}
+.info h3
+{
+    color: #1a1616;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.info p
+{
+    color: #1a1616;
+    font-size: 13px;
+    font-weight: light;
+    word-spacing: 3px;
+    /* width: 355px; */
+
+}
+
+
+/* .iphone
+{
+    height: 80%;
+    display: flex;
+    left: 20px;
+} */
+
+
+/* .info
+{
+    display: flex;
+    flex-wrap: wrap;
+} */
 .pink_bar
 {
     /* background-color: rgb(198, 54, 78); */
