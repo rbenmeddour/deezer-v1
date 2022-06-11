@@ -6,7 +6,7 @@
 - Gris foncé: #8e8e94 */
 body 
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 
 
@@ -85,12 +85,8 @@ header button
 .first_bloc article
 
 {
-    /* display: block; */
-    /* width: 70vh; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    position: absolute;
+
+    /* position: absolute; */
     height: 25vh;
     width: 50vh;
     padding: 70px 0 0 200px;
@@ -163,17 +159,19 @@ header button
 
 .info
 {
-    width: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
+    padding-left: 100px;
+    padding-top: 130px;
 }
 
 .info article
 {
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: 35%;
+    color: #2e2e30;
+    line-height: 1.2em;
 }
 
 .phone
@@ -186,46 +184,107 @@ header button
 .info h3
 {
     color: #1a1616;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    width: 300px;
+    width: 200px;
     padding-bottom: 15px;
+    letter-spacing: 0.5px;
 }
 
 .info p
 {
-    color: #1a1616;
-    font-size: 13px;
+    color: #2e2e30;
+    font-size: 12px;
     font-weight: light;
     word-spacing: 3px;
     /* width: 355px; */
 
 }
 
+.boco
 
-/* .iphone
 {
-    height: 80%;
-    display: flex;
-    left: 20px;
-} */
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: #2e2e30;
+
+}
 
 
-/* .info
-{
-    display: flex;
-    flex-wrap: wrap;
-} */
 .pink_bar
 {
-    /* background-color: rgb(198, 54, 78); */
-    height: 16vh;
+    background-color: rgb(198, 54, 78);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logox
+
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.icon 
+{
+    max-width: 32px;
+    max-height: 32px;
+    padding-right: 22px;
+}
+
+.textdiv
+{
+    width: 40vh;
+    padding-left: 30px;
+
+}
+
+.logox h2
+{
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.logox p
+{
+    color: #fff;
+    width: 45vh;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
 }
 
 .forfait_bloc
 {
-    /* background-color: gray; */
-    height: 70vh;
+    background-color: gray;
+    height: 80vh;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.forfait
+{
+
+}
+
+.grille
+{
+    border: solid #1a1616;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
 }
 
 .discount_bloc
