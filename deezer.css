@@ -24,7 +24,7 @@ header nav
     position: absolute;
     right: 0px;
     top: 10px;
-    margin-right: 80px;
+    margin-right: 120px;
 }
 
 .logo 
@@ -37,7 +37,8 @@ header nav
 
 header nav a 
 {
-    padding-right: 60px;
+    padding-right: 20px;
+    margin-right: 20px;
 }
 
 header button
@@ -57,7 +58,7 @@ header button
     background-color: white;
     border-color: #2d96c8;
     color: #2d96c8;
-    margin-right: 30px;
+    margin-right: 20px;
     box-shadow: none;
 }
 
@@ -68,20 +69,58 @@ header button
     background-color: #2d96c8;
     color: white;
     border-color: #2d96c8;
-
 }
 
 
 .first_bloc
 {
     /* background-color: red; */
-    height: 32vh;
+    height: 36vh;
+    background-image: url(./img/hero.png);
+    background-size: 600px 540px;  
+    background-repeat: no-repeat;
+    background-position-x: 70em; 
+} 
+
+.first_bloc article
+
+{
+    /* display: block; */
+    /* width: 70vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
+
+.first_bloc h2
+
+{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.first_bloc h3
+
+{
+
+    font-size: 20px;
+}
+
+
+/* .hero
+{
+    height: 30em;
+    width: 32em;
+    position: absolute;
+    padding-left: 50em;
+    z-index: -1;
+} */
 
 .second_bloc
 {
-    /* background-color: aquamarine; */
-     height: 40vh;
+    background-color: #181616f8;
+     height: 50vh;
 } 
 
 .pink_bar
