@@ -419,10 +419,78 @@ header button
 .discount_bloc
 {
     /* background-color: blue; */
-    height: 23vh;
+    height: 26vh;
 
 }
 
+section.sub{
+    background-color: #fff;
+}
+
+section.sub article.sub1
+{
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    padding:20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.sub button.btn_sub
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.sub article.sub1 div.sale
+{
+    display: flex;
+    flex-direction: column;
+}
+
+section.sub article.sub2
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section.sub article.sub3
+{
+    display: flex;
+}
+
+section.sub h3
+{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #1a1616;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+section.sub span{
+    color: #ef5466;
+}
+
+section.sub a{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2d96c8;
+}
+
+section.sub div.btn_sub button
+{
+    
+    border-radius: 50px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    border-color: #1a1616;
+}
 footer
 {
     /* background-color: yellow; */
